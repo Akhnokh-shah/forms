@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>   
+            <div class="split-container">
+              <div class="left-side">
+                <img src="./assets/img/women-img.webp" alt="Sign In Image">
+              </div>
+              <div class="right-side">
+                <div class="signin-form">
+                  <div class=" mb-4">
+                    <h4 class="search-title search-img-text">Img of self</h4>
+                    <div class="upload-section mb-4">
+                        <div class="upload-container">
+                            <input type="file" id="imageUpload" class="file-input" accept="image/*">
+                            <label for="imageUpload" class="upload-label">
+                                <img src="./assets/img/upload-icon.svg" alt="Upload" class="upload-icon">
+                                
+                            </label>
+                            <div id="preview" class="image-preview"></div>
+                        </div>
+                    </div>
+
+                    <div class="zip-search-section">
+                        <h4 class="search-title search-img-text">Search Zip Code</h4>
+                        <div class="search-input-container">
+                            <i class="fas fa-search search-icon"></i>
+                            <div class="zip-input-group">
+                                <input type="text" id="zipCode" name="zipCode" class="form-control search-input" placeholder="Enter zip code">
+                                <select class="form-select zip-select">
+                                    <option selected>category</option>
+                                    <option value="5">489090</option>
+                                    <option value="10">6589095</option>
+                                    <option value="25">2489091</option>
+                                    <option value="50">539092</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="two-btn">
+                          <button type="submit" class="back-btn">back</button>
+                        <button type="submit" class="signin-btn">next</button>
+                        <button type="submit" class="signin-btn"><a class="for-next-page" href="./sign-up.html"> Sign In</a></button>
+
+                      </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+              </div>
+  </body>
+</html>

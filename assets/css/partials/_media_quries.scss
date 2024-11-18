@@ -1,0 +1,119 @@
+@media(min-width:768px){
+}
+@media(max-width:770px){
+    .split-container{
+        position: relative;
+    }
+}
+@media (min-width: 768px){ .left-side{
+    min-height: auto;
+}
+}
+@media (max-width: 770px) {
+    .left-side{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; 
+    height: 100vh;
+    z-index: 0; 
+    img {
+        opacity: .6;
+
+    }
+}
+}
+.right-side{
+    @media (min-width: 768px) {
+        padding: 3rem;
+
+    }
+
+    @media (max-width: 770px) {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+
+    }
+}
+.signin-form {
+    @media (min-width: 576px) {
+        padding: 2rem;
+        width: 90%;
+    }
+
+    @media (min-width: 768px) {
+        padding: 3rem;
+    }
+
+    @media (max-width: 770px) {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 1.8rem;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 2; /* Ensure the form is above the image */
+    }
+}
+.form-group {
+    @media (min-width:786px) {
+        margin-bottom: 1rem;
+    }
+}
+.form-group label {
+    @media (min-width: 5786px) {
+        margin-bottom: 0.7rem;
+        font-size: 0.95rem;
+    }
+}
+
+.form-group input {
+    @media (min-width786ppx) {
+        font-size: 1rem;
+    }
+}
+.remember-me {
+    @media (min-width: 786px) {
+        gap: 0.7rem;
+        margin: 1.5rem 0;
+        font-size: 1rem;
+    }
+}
+.signin-btn {
+    @media (min-width: 786px) {
+        padding: 1rem;
+        font-size: 1.1rem;
+    }
+}
+.forgot-password {
+    @media (min-width: 786px) {
+        margin-top: 1.5rem;
+    }
+}
+.forgot-password a {
+    @media (min-width: 786px) {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .upload-container {
+      padding: 4rem 6rem;
+    }
+    
+    .search-input{
+        margin-bottom: 1rem;
+    }
+    .zip-select {
+        height: 40px;
+    }
+
+    .zip-input-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .zip-select {
+        width: 100%;
+        padding: .8rem ;
+    }
+}
