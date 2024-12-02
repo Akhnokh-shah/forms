@@ -13,15 +13,24 @@
               </div>
               <div class="right-side">
                 <div class="signin-form">
+                  <div class="d-flex justify-content-between align-items-start mb-4">
+                    <div>
+                    </div>
+                    
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                  </div>
                   <div class=" mb-4">
                     <h4 class="search-title search-img-text">Img of self</h4>
                     <div class="upload-section mb-4">
                         <div class="upload-container">
                             <input type="file" id="imageUpload" class="file-input" accept="image/*">
                             <label for="imageUpload" class="upload-label">
-                                <img src="./assets/img/upload-icon.svg" alt="Upload" class="upload-icon">
-                                
-                            </label>
+                                <svg class="upload-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M12 16V8M12 8L9 11M12 8L15 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="upload-text">Upload photo</span>
+                            </label>  
                             <div id="preview" class="image-preview"></div>
                         </div>
                     </div>
@@ -42,10 +51,10 @@
                             </div>
                         </div>
                         <div class="two-btn">
-                          <button type="submit" class="back-btn">back</button>
-                        <button type="submit" class="signin-btn">next</button>
-                        <button type="submit" class="signin-btn"><a class="for-next-page" href="./sign-up.html"> Sign In</a></button>
-
+                          <a class="back-btn" href="./basic-info.html">back</a>
+                          <a class="signin-btn" href="./zip-code.html">next</a>
+        
+        
                       </div>
                     </div>
                 </div>
